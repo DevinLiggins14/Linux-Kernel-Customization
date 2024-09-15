@@ -121,15 +121,18 @@ Find and enable Debug Preemptible Kernel <br/>
 <img src="https://github.com/user-attachments/assets/9dd7c512-c747-4054-8c53-186408309a8b"/>
 <br />
 <br />
-Exit and navigate to Device Drivers from the main screen<br/>
-<img src=""/>
+Exit and navigate to Device Drivers from the main screen and hit enter<br/>
+<img src="https://github.com/user-attachments/assets/665631b5-f409-4243-9322-80d258c3a53b"/>
 <br /> Find and enable MMD/SD/SDIO <br/>
 <img src="https://github.com/user-attachments/assets/2b240b24-e8ab-4b95-a004-dc529e64b8ef"/>
 <br />
 <br />
 <br />
-Enter text here:  <br/>
-<img src=""/>
+Click save to save the new kernel configurations to a new configuration file <br/>
+<img src="https://github.com/user-attachments/assets/088d712c-4194-4270-9fda-a85a8333d430"/>
+ <img src="https://github.com/user-attachments/assets/d92be623-9213-44b5-9696-701d593338a0"/>
+<br />Confirm the new kernel file contents <br/>
+ <img src="https://github.com/user-attachments/assets/90672a83-406d-4fa8-8092-02fceb52da64"/>
 <br />
 <br />
 Enter text here:  <br/>
