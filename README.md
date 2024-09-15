@@ -135,15 +135,16 @@ Click save to save the new kernel configurations to a new configuration file <br
  <img src="https://github.com/user-attachments/assets/90672a83-406d-4fa8-8092-02fceb52da64"/>
 <br />
 <br />
-Enter text here:  <br/>
-<img src=""/>
-<br />Enter text here:  <br/>
-<img src=""/>
+Move the new kernel .config file to .config and execute the following <br/>
+<img src="https://github.com/user-attachments/assets/97a94faa-6cef-4106-ba5d-22dde72fdcb7"/>
+<br /> Confirm its contents <br/>
+<img src="https://github.com/user-attachments/assets/26169f70-1b71-479e-904e-5ecdfeb9fecb"/>
+<img src="https://github.com/user-attachments/assets/fbfc8441-26a3-4b7e-83d7-4a0dd4feafc3"/>
 <br />
 <br />
 <br />
-Enter text here:  <br/>
-<img src=""/>
+Cd into the .config source dir and run make modules to compile the kernel with modules  <br/>
+<img src="https://github.com/user-attachments/assets/cb62d464-32a0-48ad-9ebf-df5ac1e6b10f"/>
 <br />
 <br />
 Enter text here:  <br/>
