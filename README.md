@@ -70,7 +70,8 @@ Press save to save current kernel configuration:  <br/>
 Now navigate to the File systems configuration page and enable support for Btrfs and XFS by scrolling down <br/>
 <img src="https://github.com/user-attachments/assets/9edf200b-db58-4218-8f33-349d7381f664"/>
 <img src="https://github.com/user-attachments/assets/35fb7b9b-932c-40c2-bdc6-c6cc306d8e6d"/>
-<br />
+<br />Real-time data, such as audio and video, can be separated into a dedicated disk area for optimal performance when using XFS options like Realtime subvolume support. This is especially helpful for applications that need to operate reliably. Consistency checks can be performed while the filesystem is online with XFS online metadata check support, guaranteeing more efficient production operation. Debugging support and verbose warnings provide logs and extra diagnostics for troubleshooting, but they may also cause performance overhead. <br/> <br/>Enabling POSIX ACLs for Btrfs gives it more precise file permission control than standard UNIX permissions. Debugging support and assertions assist in finding and fixing bugs or filesystem errors, while sanity tests check the filesystem upon loading to detect problems before they become significant. In order to detect corruption or inconsistency in the filesystem and help maintain its integrity, the ref verify tool counts references in metadata.
+ <br/>
 <br />
 <br />
 Now use the exit at the bottom of the page back to the main screen and select Networking Support<br/>
@@ -83,7 +84,7 @@ Press enter to view the Networking Support page and press the / and search for I
 <br /> Now press 1 and hit enter to configure support for IPv6  <br/> 
 <img src="https://github.com/user-attachments/assets/76f9bd28-aba5-4b6a-93e7-85fc10e83d9e"/>
 <img src="https://github.com/user-attachments/assets/782378df-dd59-4ae4-ac6f-a50d006d2e61"/>
-<br />
+<br />The IPv6 options offer a number of refined networking features. With the help of segment routing header encapsulation support, packets can be encapsulated and routed using the segment routing protocol, providing IPv6 networks with flexible and effective routing. By using HMAC (Hash-based Message Authentication Code) to authenticate segment routing headers, Segment Routing HMAC Support increases security by guaranteeing the integrity and authenticity of traffic. The RPL protocol, which is designed for routing in low-power and lossy networks and is frequently used in sensor and Internet of Things networks, can be used thanks to RPL Source Routing Header Support. Finally, in-band operation and maintenance (IOAM) is made possible by IOAM Pre-allocated Trace Insertion Support, which aids in network performance monitoring and diagnostics by allowing trace data to be inserted into packets. <br />
 <br />
 <br />
 Next exit and navigate to Processor type and features  <br/>
@@ -92,7 +93,8 @@ Next exit and navigate to Processor type and features  <br/>
 <br /> Navigate the page to find and enable MCE <br/>
 <img src="https://github.com/user-attachments/assets/25eb556f-84f2-4a2e-8ab2-5ff1c05a3671"/>
 <img src="https://github.com/user-attachments/assets/fbfef63a-2147-4002-9677-913aea5cea37"/>
-<br />
+<br /> <br/>The features of Intel MCE (Machine Check Exception) offer vital assistance in managing hardware malfunctions in Intel processors. With this option, the kernel can identify, log, and manage hardware problems in real time, such as memory errors, cache failures, or overheating. By turning on Intel MCE, you can increase system reliability and possibly avoid crashes by allowing the system to react to hardware issues before they cause instability or corrupt data. Systems needing strong error handling, like workstations and servers with Intel hardware, must have this feature.
+ <br/>
 <br />
 <br />
  Now exit and navigate to the Power Management and ACPI  <br/>
@@ -103,7 +105,7 @@ Next exit and navigate to Processor type and features  <br/>
 <br />
   <br/> Find and enable Processor Clocking Control Interface Driver <br />
 <img src="https://github.com/user-attachments/assets/c1e4ddd0-21d4-480b-98d6-d0e99663dfc0"/>
-<br />
+<br /> <br/> The system can monitor and regulate the CPU's clocking frequency thanks to the Processor Clocking Control Interface driver. Through the use of this interface, the operating system can dynamically modify the clock speed of the processor to maximize both performance and power efficiency in response to workload demands. Systems that make use of this feature can increase processing power and energy efficiency by decreasing power consumption during idle periods and increasing performance when needed. <br/>
 <br />
 <br />
 Return to the main page using exit and navigate to Security Options  <br/>
@@ -112,6 +114,10 @@ Return to the main page using exit and navigate to Security Options  <br/>
 <br />
 Make sure SELinux is enabled and select SELinux kernel debugging support  <br/>
 <img src="https://github.com/user-attachments/assets/65199278-7802-43c0-ba35-1a439d8b4232"/>
+<br/>Additional debugging features for SELinux (Security-Enhanced Linux) can be enabled with the SELinux Kernel Debugging Support option. When enabled, it offers thorough logging and diagnostic data about the application and enforcement of SELinux policies, assisting system administrators and developers in debugging security-related problems. This can be helpful in understanding SELinux behavior during policy development or in diagnosing access control issues. However, because of the additional logging and checks made, turning on this option might result in performance overhead. It is primarily advised for environments used for testing or development where thorough security debugging is required.
+<br/>
+<br/>
+<br/>
 <br /> Now exit to return to the main screen and select Kernel hacking <br/>
 <img src="https://github.com/user-attachments/assets/2e2fe366-d2fc-4399-93f7-f9cd1d15938a"/>
 <br />
@@ -119,13 +125,14 @@ Make sure SELinux is enabled and select SELinux kernel debugging support  <br/>
 <br />
 Find and enable Debug Preemptible Kernel <br/>
 <img src="https://github.com/user-attachments/assets/9dd7c512-c747-4054-8c53-186408309a8b"/>
-<br />
+<br />The preemptible kernel, which enables the kernel to interrupt ongoing tasks in order to react faster to higher-priority tasks, can be debugged using the Debug Preemptible Kernel option. By offering thorough logs and checks during kernel operations, turning this option on aids developers in the diagnosis and troubleshooting of kernel preemption-related issues. In real-time or low-latency systems, this is helpful for determining race conditions, latency problems, or other timing-related issues. <br/> 
+<br/>
 <br />
 Exit and navigate to Device Drivers from the main screen and hit enter<br/>
 <img src="https://github.com/user-attachments/assets/665631b5-f409-4243-9322-80d258c3a53b"/>
 <br /> Find and enable MMD/SD/SDIO <br/>
 <img src="https://github.com/user-attachments/assets/2b240b24-e8ab-4b95-a004-dc529e64b8ef"/>
-<br />
+<br /> Memory card interfaces such as MMC (MultiMediaCard), SD (Secure Digital), and SDIO (Secure Digital Input Output) can be supported by the kernel when the MMC/SD/SDIO Support option is enabled. These interfaces are frequently used to access external storage or peripheral devices in gadgets like tablets, smartphones, embedded systems, and cameras. By turning on this option, users can mount external memory cards, use SD-based storage, and connect to peripherals like Wi-Fi adapters and GPS modules that use the SDIO standard. The kernel can also communicate with MMC, SD, and SDIO devices. For systems that need to communicate with SDIO peripherals or removable storage, this feature is crucial. <br/> 
 <br />
 <br />
 Click save to save the new kernel configurations to a new configuration file <br/>
