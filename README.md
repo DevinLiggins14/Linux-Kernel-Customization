@@ -109,11 +109,10 @@ Next exit and navigate to Processor type and features  <br/>
  Now exit and navigate to the Power Management and ACPI  <br/>
 <img src="https://github.com/user-attachments/assets/afb16975-a885-44a8-b6de-c186e8862d10"/>
 <br />
-<br />
-Enter text here:  <br/>
-<img src=""/>
+<br /> Select CPU frequency and scaling <br/>
+<img src="https://github.com/user-attachments/assets/5e633feb-8a08-4bd2-b8f8-e9ee4fb03b51"/>
 </p>
-Enter text here:  <br/>
+  <br/>
 <img src=""/>
 </p>
 <br />
