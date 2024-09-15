@@ -130,7 +130,7 @@ Find and enable Debug Preemptible Kernel <br/>
 <br />
 Exit and navigate to Device Drivers from the main screen and hit enter<br/>
 <img src="https://github.com/user-attachments/assets/665631b5-f409-4243-9322-80d258c3a53b"/>
-<br /> Find and enable MMD/SD/SDIO <br/>
+<br /> Find and enable MMD/SD/SDIO card support<br/>
 <img src="https://github.com/user-attachments/assets/2b240b24-e8ab-4b95-a004-dc529e64b8ef"/>
 <br /> Memory card interfaces such as MMC (MultiMediaCard), SD (Secure Digital), and SDIO (Secure Digital Input Output) can be supported by the kernel when the MMC/SD/SDIO Support option is enabled. These interfaces are frequently used to access external storage or peripheral devices in gadgets like tablets, smartphones, embedded systems, and cameras. By turning on this option, users can mount external memory cards, use SD-based storage, and connect to peripherals like Wi-Fi adapters and GPS modules that use the SDIO standard. The kernel can also communicate with MMC, SD, and SDIO devices. For systems that need to communicate with SDIO peripherals or removable storage, this feature is crucial. <br/> 
 <br />
