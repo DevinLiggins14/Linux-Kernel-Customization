@@ -56,12 +56,39 @@ Run make menuconfig (install make if not installed) and wait for kernel UI to ap
   <img src="https://github.com/user-attachments/assets/c8403eef-ae55-47cf-a2a6-cac5d33dae39"/>
 <br />
 <br />
-Now extract the tarball in the desired directory:  <br/>
-<img src="https://github.com/user-attachments/assets/63889853-9abf-4cb5-9808-cb7bc901d7b4"/>
+Enter text here:  <br/>
+<img src=""/>
 <br />
 <br />
-Confirm extraction and enter the kernel directory:  <br/>
-<img src="https://github.com/user-attachments/assets/1a8b1afa-843c-409d-871b-69453a914358"/>
+Enter text here:  <br/>
+<img src=""/>
+</p>
+<br />
+<br />
+Enter text here:  <br/>
+<img src=""/>
+<br />
+<br />
+Enter text here:  <br/>
+<img src=""/>
+</p>
+<br />
+<br />
+Enter text here:  <br/>
+<img src=""/>
+<br />
+<br />
+Enter text here:  <br/>
+<img src=""/>
+</p>
+<br />
+<br />
+Enter text here:  <br/>
+<img src=""/>
+<br />
+<br />
+Enter text here:  <br/>
+<img src=""/>
 </p>
 
 
