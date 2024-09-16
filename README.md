@@ -154,25 +154,29 @@ Cd into the .config source dir and run make modules to compile the kernel with m
 <img src="https://github.com/user-attachments/assets/cb62d464-32a0-48ad-9ebf-df5ac1e6b10f"/>
 <br />
 <br />
-Enter text here:  <br/>
-<img src=""/>
-<br />Enter text here:  <br/>
-<img src=""/>
+ Confirm the results from the compiled kernel <br/>
+<img src="https://github.com/user-attachments/assets/1280fd8e-8b85-4091-a283-546608ec70b2"/>
+ <img src="https://github.com/user-attachments/assets/b9df3a35-f54c-4e1a-bc05-01bf13c4ad66"/>
+<br /> Next run make modules_install && make install   <br/>
+<img src="https://github.com/user-attachments/assets/8d675ab4-384b-465f-aaef-db9afcc4c8e0"/>
 <br />
 <br />
 <br />
-Enter text here:  <br/>
-<img src=""/>
+Verify that initrmfs was successfully created  <br/>
+<img src="https://github.com/user-attachments/assets/c47f9d91-4893-4d75-b832-fee6339cc1ed"/>
 <br />
 <br />
-Enter text here:  <br/>
-<img src=""/>
+Next update the grub configuration to include the new kernel. Check /boot to confirm <br/>
+<img src="https://github.com/user-attachments/assets/b29ec83e-b78a-4766-a39a-ca04abaf951a"/>
+<img src="https://github.com/user-attachments/assets/cba04c33-3231-4b1d-9a05-53de5738545b"/>
 <br />
-<br />  <br/>
-<img src=""/>
+<br /> Quickly run uname -r to confirm current kernel release <br/>
+<img src="https://github.com/user-attachments/assets/49b57d92-8823-4ebb-a5d2-1666c45cd1b5"/>
 <br />
-<br /><br />  <br/>
-<img src=""/>
+<br /> <br /> Now reboot and select desired custom kernel <br/>
+<img src="https://github.com/user-attachments/assets/b4b2f462-4569-474e-bdbf-1f513f10d6c1"/>
+<br/>Now run uname -r to confirm new kernel version <br/>
+ <img src="https://github.com/user-attachments/assets/09dc9b70-c77a-42bd-aacb-3f8f79073a97"/>
 <br />
 <br /><br />  <br/>
 <img src=""/>
