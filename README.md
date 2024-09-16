@@ -167,7 +167,7 @@ Next update the grub configuration to include the new kernel. Check /boot to con
 <br />
 <br /> <br /> Now reboot and select desired custom kernel <br/>
 <img src="https://github.com/user-attachments/assets/b4b2f462-4569-474e-bdbf-1f513f10d6c1"/>
-<br/>Now run uname -r to confirm new kernel version <br/>
+<br/>Now run uname -r to confirm new kernel version... Success! <br/>
  <img src="https://github.com/user-attachments/assets/09dc9b70-c77a-42bd-aacb-3f8f79073a97"/>
 <br />
 <br /> 
