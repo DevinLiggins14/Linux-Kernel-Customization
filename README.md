@@ -142,16 +142,8 @@ Click save to save the new kernel configurations to a new configuration file <br
  <img src="https://github.com/user-attachments/assets/90672a83-406d-4fa8-8092-02fceb52da64"/>
 <br />
 <br />
-Move the new kernel .config file to .config and execute the following <br/>
+Move to ensure .config file is updated (can also be done by saving in the UI) and run the following to compile with the max cores <br/>
 <img src="https://github.com/user-attachments/assets/97a94faa-6cef-4106-ba5d-22dde72fdcb7"/>
-<br /> Confirm its contents <br/>
-<img src="https://github.com/user-attachments/assets/26169f70-1b71-479e-904e-5ecdfeb9fecb"/>
-<img src="https://github.com/user-attachments/assets/fbfc8441-26a3-4b7e-83d7-4a0dd4feafc3"/>
-<br />
-<br />
-<br />
-Cd into the .config source dir and run make modules to compile the kernel with modules  <br/>
-<img src="https://github.com/user-attachments/assets/cb62d464-32a0-48ad-9ebf-df5ac1e6b10f"/>
 <br />
 <br />
  Confirm the results from the compiled kernel <br/>
@@ -178,68 +170,8 @@ Next update the grub configuration to include the new kernel. Check /boot to con
 <br/>Now run uname -r to confirm new kernel version <br/>
  <img src="https://github.com/user-attachments/assets/09dc9b70-c77a-42bd-aacb-3f8f79073a97"/>
 <br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br /><br />  <br/>
-<img src=""/>
-<br />
-<br />
-<!--
+<br /> 
+<br /> <br/><!--
  ```diff
 - text in red
 + text in green
